@@ -1,4 +1,8 @@
 from django.db import models
+from django.conf.global_settings import AUTH_USER_MODEL
+from pygments.lexers import get_lexer_by_name
+from pygments.formatters.html import HtmlFormatter
+from pygments import highlight
 
 
 
